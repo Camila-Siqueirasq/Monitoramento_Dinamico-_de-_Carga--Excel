@@ -15,7 +15,7 @@ O arquivo principal deste repositório é o **demostrativo-de-carregamento.xlsx*
 - **Formatação Avançada de Gráficos:** Manipulação de eixos, sobreposição de séries e transparência de elementos.
 - **Vínculo Dinâmico:** Utilização de caixas de texto vinculadas a células para exibição de KPIs em tempo real.
 
-## 🛠️ Como a "mágica" foi feita
+## 🛠️ Como foi feito
 Para alcançar este resultado visual, as seguintes técnicas foram aplicadas no Excel:
 1. **Gráfico de Barras 100% Empilhadas:** Criado a partir das colunas de `% Ocupação` e `Restante %`.
 2. **Fixação de Eixos:** O eixo horizontal foi travado com mínimo de `0` e máximo de `1` (100%) para que a proporção não quebre quando os dados mudarem.
