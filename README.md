@@ -3,6 +3,8 @@
 ![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![Data Visualization](https://img.shields.io/badge/Data_Visualization-0052CC?style=for-the-badge&logo=data-visualization&logoColor=white)
 
+![Demonstração do funcionamento da planilha](demonstracao.gif)
+
 ## 📌 Sobre o Projeto
 Este projeto demonstra a criação de um painel visual (dashboard) criativo no Microsoft Excel para monitorar a **ocupação de carga de uma frota de caminhões**. 
 
@@ -15,7 +17,7 @@ O arquivo principal deste repositório é o **demostrativo-de-carregamento.xlsx*
 - **Formatação Avançada de Gráficos:** Manipulação de eixos, sobreposição de séries e transparência de elementos.
 - **Vínculo Dinâmico:** Utilização de caixas de texto vinculadas a células para exibição de KPIs em tempo real.
 
-## 🛠️ Como foi feito
+## 🛠️ Como  foi feit
 Para alcançar este resultado visual, as seguintes técnicas foram aplicadas no Excel:
 1. **Gráfico de Barras 100% Empilhadas:** Criado a partir das colunas de `% Ocupação` e `Restante %`.
 2. **Fixação de Eixos:** O eixo horizontal foi travado com mínimo de `0` e máximo de `1` (100%) para que a proporção não quebre quando os dados mudarem.
@@ -26,7 +28,7 @@ Para alcançar este resultado visual, as seguintes técnicas foram aplicadas no 
 ## 🚀 Como testar
 1. Faça o download do arquivo `demostrativo-de-carregamento.xlsx` disponível neste repositório.
 2. Abra o arquivo no Microsoft Excel.
-3. Altere os valores numéricos na coluna **"Carregado"** (por exemplo, mude de 5.404 para 8.000).
+3. Altere os valores numéricos na coluna **"Carregado"**.
 4. Observe a barra de carga do caminhão e o percentual se ajustarem automaticamente.
 
 ---
